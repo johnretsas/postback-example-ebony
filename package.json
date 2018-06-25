@@ -1,0 +1,21 @@
+{
+  "name": "ebony-hodor-test-bot",
+  "version": "1.0.0",
+  "description": "A hello world bot for EBONy Framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Christos Panagiotakopoulos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "messenger-platform-node": "git+https://github.com/chrispanag/messenger-platform-node.git",
+    "mongodb": ">=3.0",
+    "ebony-framework": "*"
+  }
+}
